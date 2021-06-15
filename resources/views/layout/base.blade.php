@@ -19,6 +19,12 @@
 
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
 </head>
 
 <body>
@@ -26,7 +32,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-          Matilha.<span style="color: red;">host</span>
+          Matilha.<span class="red">host</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="navbar-toggler-icon"></span>
@@ -41,12 +47,15 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ url('/') }}">{{ __('Sobre') }}</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url('/') }}">{{ __('Login') }}</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <main class="py-4">
+    <main>
       @yield('content')
     </main>
 
