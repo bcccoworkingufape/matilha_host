@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.361" height="32.361" viewBox="0 0 32.361 32.361">
+  <defs>
+    <filter id="Icon_open-terminal" x="0" y="0" width="32.361" height="32.361" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_open-terminal)">
+    <path id="Icon_open-terminal-2" data-name="Icon open-terminal" d="M.162,0A.151.151,0,0,0,0,.162V14.2a.161.161,0,0,0,.162.162H14.2a.161.161,0,0,0,.162-.162V.162A.151.151,0,0,0,14.2,0H.162ZM2.7,1.4,5.787,4.493,2.7,7.585,1.4,6.291l1.8-1.8L1.4,2.7Zm4.493,3.99h5.392v1.8H7.189Z" transform="translate(9 6)" fill="#fff"/>
+  </g>
+</svg>

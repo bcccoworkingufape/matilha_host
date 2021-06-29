@@ -1,63 +1,8 @@
 @extends('layout.base')
 
 <head>
-  <style>
-    header {
-      background: no-repeat center/cover url("banner1.jpg");
-      height: calc(100vh - 200px);
-    }
-
-    .header-content {
-      width: 100%;
-      height: 100%;
-      background: radial-gradient(rgba(0, 0, 0, 0.4), black);
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
-      padding: 40px;
-    }
-
-    .header-content h1 {
-      color: #fff;
-      font-weight: bold;
-    }
-
-    .header-sub {
-      color: #fff;
-      font-size: 24px;
-    }
-
-    .header-text {
-      color: #fff;
-      font-size: 18px;
-    }
-
-    @media only screen and (min-width: 900px) {
-      .header-content {
-        padding: 0 100px 0 0;
-      }
-
-      .header-info {
-        width: 35%;
-      }
-
-      .header-sub {
-        font-size: 35px;
-      }
-    }
-
-    .plans-container {
-      display: flex;
-      flex: 1;
-      background-color: #000;
-      padding: 100px 20px 0;
-      margin: 0;
-      color: white;
-      height: 100vh;
-    }
-  </style>
+  <!-- Styles -->
+  <link href="{{ asset('css/about.css') }}" rel="stylesheet">
 </head>
 
 @section('content')
@@ -67,7 +12,7 @@
       <h1>HOSPEDAGEM DE SITES</h1>
       <p class="header-sub">
         Tenha site e emails a partir
-        de R$ 4,50/mês
+        de R$ 4,50 /mês
       </p>
       <p class="header-text">
         Lorem Ipsum é simplesmente uma
@@ -79,6 +24,50 @@
   </div>
 </header>
 <section id="plans" class="plans-container">
-  About
+  <div class="plans-title">
+    Conheça os planos da <strong>Matilha.<span class="red">host</span></strong>
+  </div>
+  <div class="plans-content">
+    <div class="plan-card bg-dark">
+      <img src="img/img_dog_1.png" alt="plano pug">
+      <span class="title-card">Pug</span>
+      <span>Solução ideal para iniciantes</span>
+      <div class="separator"></div>
+      <span>R$ 4,99 /mês</span>
+      <ul>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+      </ul>
+      <button>Comprar</button>
+    </div>
+    <div class="plan-card bg-dark">
+      <img src="img/img_dog_2.png" alt="plano buldogue">
+      <span class="title-card">Pug</span>
+      <span>Solução ideal para medianos</span>
+      <div class="separator"></div>
+    </div>
+    <div class="plan-card bg-dark">
+      <img src="img/img_dog_3.png" alt="plano doberman">
+      <span class="title-card">Pug</span>
+      <span>Solução ideal para avançados</span>
+      <div class="separator"></div>
+    </div>
+    <div class="plan-card bg-dark">
+      <img src="img/img_dog_4.png" alt="plano pitbull">
+      <span class="title-card">Pug</span>
+      <span>Solução ideal para experientes</span>
+      <div class="separator"></div>
+    </div>
+  </div>
 </section>
 @endsection
