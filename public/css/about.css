@@ -65,7 +65,7 @@ header {
 }
 
 .plan-card {
-  width: 100%;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,6 +78,7 @@ header {
 .plan-card img {
   width: 120px;
   height: 120px;
+  margin-bottom: 20px;
 }
 
 .plan-card .title-card {
@@ -116,17 +117,17 @@ header {
   }
 
   .plans-container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 5px;
   }
 
   .plan-card {
-    max-width: 250px;
+    margin-right: 20px;
   }
 
   .plans-content {
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

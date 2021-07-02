@@ -55,18 +55,66 @@
       <span class="title-card">Pug</span>
       <span>Solução ideal para medianos</span>
       <div class="separator"></div>
+      <span>R$ 4,99 /mês</span>
+      <ul>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+      </ul>
+      <button>Comprar</button>
     </div>
     <div class="plan-card bg-dark">
       <img src="img/img_dog_3.png" alt="plano doberman">
       <span class="title-card">Pug</span>
       <span>Solução ideal para avançados</span>
       <div class="separator"></div>
+      <span>R$ 4,99 /mês</span>
+      <ul>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+      </ul>
+      <button>Comprar</button>
     </div>
     <div class="plan-card bg-dark">
       <img src="img/img_dog_4.png" alt="plano pitbull">
       <span class="title-card">Pug</span>
       <span>Solução ideal para experientes</span>
       <div class="separator"></div>
+      <span>R$ 4,99 /mês</span>
+      <ul>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+      </ul>
+      <button>Comprar</button>
     </div>
   </div>
 </section>
