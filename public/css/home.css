@@ -51,7 +51,7 @@ header {
   padding-right: 20px;
 
   margin: 0;
-  color: white;
+  color: #fff;
   min-height: 1200px;
   max-width: 100%;
 }
@@ -65,14 +65,20 @@ header {
 }
 
 .plan-card {
-  width: 300px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 5px;
+  padding: 20px 5px;
   border-radius: 12px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.plan-card:hover {
+  border: 2px solid #C7D4F3;
+  box-shadow: 0 0 1em #3C73F5;
 }
 
 .plan-card img {
@@ -92,15 +98,42 @@ header {
   margin: 8px 0;
 }
 
+.plan-card .card-price {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 .plan-card ul {
   width: 100%;
   padding: 0;
 }
 
 .plan-card li {
-  padding: 4px 12px;
+  padding: 0 12px;
   list-style: none;
   width: 100%;
+  display: flex;
+}
+
+.plan-card li img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.plan-card .buy-btn {
+  height: 60px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: 1.5px solid #6E7481;
+  border-radius: 10px;
+}
+
+.plan-card:hover .buy-btn {
+  border-color: #08FF00;
 }
 
 @media only screen and (min-width: 900px) {
