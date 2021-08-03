@@ -53,11 +53,11 @@
       @yield('content')
     </main>
 
-    <footer class="footer mt-auto py-5 bg-light">
+    <!-- <footer class="footer mt-auto py-5 bg-light">
       <div class="container">
         @yield('footer')
       </div>
-    </footer>
+    </footer> -->
   </div>
 </body>
 

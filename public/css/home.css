@@ -150,6 +150,61 @@ header {
   border-color: #08FF00;
 }
 
+.search-domain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 80px;
+}
+
+.search-domain .title {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.search-domain p {
+  margin-top: 30px;
+
+  text-align: center;
+  font-size: 18px;
+}
+
+.search-domain form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 50px;
+}
+
+.search-domain form input {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+
+  border: 1px solid #C7D4F3;
+  box-shadow: 0 0 1em #3C73F5;
+
+  outline: none;
+  padding: 10px;
+  -webkit-appearance: none;
+}
+
+.search-domain .search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: 1.5px solid #00E5FF;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+
+  width: 18%;
+}
+
 @media only screen and (min-width: 900px) {
   .header-content {
     padding: 0 100px 0 0;
