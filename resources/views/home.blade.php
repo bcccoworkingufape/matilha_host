@@ -30,7 +30,7 @@
   </div>
   <div class="plans-content">
     <div class="plan-card bg-dark">
-      <img src="img/img_dog_1.png" alt="plano pug">
+      <img src="img/img_dog_1.png" alt="plano pug" />
       <span class="title-card">Pug</span>
       <span>Solução ideal para iniciantes</span>
       <div class="separator"></div>
@@ -76,7 +76,7 @@
       </div>
     </div>
     <div class="plan-card bg-dark">
-      <img src="img/img_dog_4.png" alt="plano buldogue">
+      <img src="img/img_dog_4.png" alt="plano buldogue" />
       <span class="title-card">Buldogue</span>
       <span>Solução ideal para medianos</span>
       <div class="separator"></div>
@@ -122,7 +122,7 @@
       </div>
     </div>
     <div class="plan-card bg-dark">
-      <img src="img/img_dog_3.png" alt="plano doberman">
+      <img src="img/img_dog_3.png" alt="plano doberman" />
       <span class="title-card">Doberman</span>
       <span>Solução ideal para avançados</span>
       <div class="separator"></div>
@@ -168,7 +168,7 @@
       </div>
     </div>
     <div class="plan-card bg-dark">
-      <img src="img/img_dog_2.png" alt="plano pitbull">
+      <img src="img/img_dog_2.png" alt="plano pitbull" />
       <span class="title-card">Pitbull</span>
       <span>Solução ideal para experientes</span>
       <div class="separator"></div>
