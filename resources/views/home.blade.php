@@ -34,7 +34,11 @@
       <span class="title-card">Pug</span>
       <span>Solução ideal para iniciantes</span>
       <div class="separator"></div>
-      <span class="card-price">R$ 4,99 /mês</span>
+      <span class="card-price">
+        <span class="simbol">R$ </span>
+        <span class="price">4,99</span>
+        /mês
+      </span>
       <ul>
         <li>
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
@@ -72,11 +76,15 @@
       </div>
     </div>
     <div class="plan-card bg-dark">
-      <img src="img/img_dog_2.png" alt="plano buldogue">
-      <span class="title-card">Pug</span>
+      <img src="img/img_dog_4.png" alt="plano buldogue">
+      <span class="title-card">Buldogue</span>
       <span>Solução ideal para medianos</span>
       <div class="separator"></div>
-      <span class="card-price">R$ 4,99 /mês</span>
+      <span class="card-price">
+        <span class="simbol">R$ </span>
+        <span class="price">150,50</span>
+        /mês
+      </span>
       <ul>
         <li>
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
@@ -115,18 +123,19 @@
     </div>
     <div class="plan-card bg-dark">
       <img src="img/img_dog_3.png" alt="plano doberman">
-      <span class="title-card">Pug</span>
+      <span class="title-card">Doberman</span>
       <span>Solução ideal para avançados</span>
       <div class="separator"></div>
-      <span class="card-price">R$ 4,99 /mês</span>
+      <span class="card-price">
+        <span class="simbol">R$ </span>
+        <span class="price">550,50</span>
+        /mês
+      </span>
       <ul>
         <li>
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
         </li>
         <li>
-          <img src="img/icon_aprovado.svg" alt="check"  /> Mussum Ipsum
-        </li>
-        <li>
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
         </li>
         <li>
@@ -143,6 +152,9 @@
         </li>
         <li>
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
+        </li>
+        <li>
+          <img src="img/icon_bloqueado.svg" alt="check" /> Mussum Ipsum
         </li>
         <li>
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
@@ -156,11 +168,15 @@
       </div>
     </div>
     <div class="plan-card bg-dark">
-      <img src="img/img_dog_4.png" alt="plano pitbull">
-      <span class="title-card">Pug</span>
+      <img src="img/img_dog_2.png" alt="plano pitbull">
+      <span class="title-card">Pitbull</span>
       <span>Solução ideal para experientes</span>
       <div class="separator"></div>
-      <span class="card-price">R$ 4,99 /mês</span>
+      <span class="card-price">
+        <span class="simbol">R$ </span>
+        <span class="price">950,50</span>
+        /mês
+      </span>
       <ul>
         <li>
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum

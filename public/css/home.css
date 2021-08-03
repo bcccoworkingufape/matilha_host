@@ -99,8 +99,22 @@ header {
 }
 
 .plan-card .card-price {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px 0;
+}
+
+.plan-card .card-price .simbol {
+  align-self: flex-start;
+  padding-top: 5px;
+  margin-right: 3px;
+}
+
+.plan-card .card-price .price {
+  font-size: 34px;
+  font-weight: bold;
 }
 
 .plan-card ul {
