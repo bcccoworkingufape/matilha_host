@@ -232,4 +232,47 @@
   </form>
 </section>
 
+<section id="systems" class="systems">
+  <span class="title">
+    Lorem Ipsum é simplesmente uma simulação de<br />
+    texto da indústria tipográfica e de impressos
+  </span>
+  <p>
+    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de <br />
+    impressos, e vem sendo utilizado desde o século XVI.
+  </p>
+  <div class="cards">
+    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
+        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+      </span>
+      <span>Joomla</span>
+    </span>
+    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
+        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+      </span>
+      <span>Joomla</span>
+    </span>
+    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
+        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+      </span>
+      <span>Joomla</span>
+    </span>
+    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
+        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+      </span>
+      <span>Joomla</span>
+    </span>
+    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
+        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+      </span>
+      <span>Joomla</span>
+    </span>
+  </div>
+</section>
+
 @endsection
