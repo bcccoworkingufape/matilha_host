@@ -19,6 +19,8 @@
 
   <!-- Styles -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+  <link rel="shortcut icon" href="img/logo_matilha.png" />
 </head>
 
 <body>
