@@ -71,7 +71,7 @@
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -117,7 +117,7 @@
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -163,7 +163,7 @@
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -209,7 +209,7 @@
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -228,8 +228,57 @@
   </span>
   <form>
     <input name="domain" />
-    <span class="search-btn">Pesquisar</span>
+    <span class="search-btn" onclick="handleAlertDevelopment()">Pesquisar</span>
   </form>
 </section>
 
+<section id="systems" class="systems">
+  <span class="title">
+    Lorem Ipsum é simplesmente uma simulação de<br />
+    texto da indústria tipográfica e de impressos
+  </span>
+  <p>
+    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de <br />
+    impressos, e vem sendo utilizado desde o século XVI.
+  </p>
+  <div class="cards">
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
+      </span>
+      <span class="description">Joomla</span>
+    </span>
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
+      </span>
+      <span class="description">Joomla</span>
+    </span>
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
+      </span>
+      <span class="description">Joomla</span>
+    </span>
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
+      </span>
+      <span class="description">Joomla</span>
+    </span>
+    <span class="card-system" onclick="handleAlertDevelopment()">
+      <span class="box-more">
+        <img src="img/icon_fechar.svg" />
+      </span>
+      <span class="description">Mais</span>
+    </span>
+  </div>
+</section>
+
 @endsection
+
+<script>
+  function handleAlertDevelopment() {
+    alert("Em desenvolvimento!");
+  }
+</script>
