@@ -246,31 +246,31 @@
       <span class="box">
         <img src="img/icon_joomla.svg" />
       </span>
-      <span>Joomla</span>
+      <span class="description">Joomla</span>
     </span>
     <span class="card-system">
       <span class="box">
         <img src="img/icon_joomla.svg" />
       </span>
-      <span>Joomla</span>
+      <span class="description">Joomla</span>
     </span>
     <span class="card-system">
       <span class="box">
         <img src="img/icon_joomla.svg" />
       </span>
-      <span>Joomla</span>
+      <span class="description">Joomla</span>
     </span>
     <span class="card-system">
       <span class="box">
         <img src="img/icon_joomla.svg" />
       </span>
-      <span>Joomla</span>
+      <span class="description">Joomla</span>
     </span>
     <span class="card-system">
-      <span class="box">
-        <img src="img/icon_joomla.svg" />
+      <span class="box-more">
+        <img src="img/icon_fechar.svg" />
       </span>
-      <span>Joomla</span>
+      <span class="description">Mais</span>
     </span>
   </div>
 </section>
