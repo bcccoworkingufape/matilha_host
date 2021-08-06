@@ -223,7 +223,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
 .systems .title {
@@ -251,6 +251,26 @@ header {
   margin-top: 30px;
 }
 
+.systems .cards .card-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.systems .cards .card-system .box {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.systems .cards .card-system .box img {
+  width: 60px;
+  height: 60px;
+}
 
 @media only screen and (min-width: 900px) {
   .header-content {

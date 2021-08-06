@@ -242,33 +242,33 @@
     impressos, e vem sendo utilizado desde o século XVI.
   </p>
   <div class="cards">
-    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
-        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
       </span>
       <span>Joomla</span>
     </span>
-    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
-        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
       </span>
       <span>Joomla</span>
     </span>
-    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
-        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
       </span>
       <span>Joomla</span>
     </span>
-    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
-        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
       </span>
       <span>Joomla</span>
     </span>
-    <span style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-      <span style="margin-left: 10px;background-color:white; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
-        <img src="img/icon_joomla.svg" style="width: 60px; height: 60px;" />
+    <span class="card-system">
+      <span class="box">
+        <img src="img/icon_joomla.svg" />
       </span>
       <span>Joomla</span>
     </span>
