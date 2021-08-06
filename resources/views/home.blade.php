@@ -71,7 +71,7 @@
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -117,7 +117,7 @@
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -163,7 +163,7 @@
           <img src="img/icon_bloqueado.svg" alt="bloqueado" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -209,7 +209,7 @@
           <img src="img/icon_aprovado.svg" alt="check" /> Mussum Ipsum
         </li>
       </ul>
-      <div class="buy-btn">
+      <div class="buy-btn" onclick="handleAlertDevelopment()">
         <span>Comprar</span>
       </div>
     </div>
@@ -228,7 +228,7 @@
   </span>
   <form>
     <input name="domain" />
-    <span class="search-btn">Pesquisar</span>
+    <span class="search-btn" onclick="handleAlertDevelopment()">Pesquisar</span>
   </form>
 </section>
 
@@ -266,7 +266,7 @@
       </span>
       <span class="description">Joomla</span>
     </span>
-    <span class="card-system">
+    <span class="card-system" onclick="handleAlertDevelopment()">
       <span class="box-more">
         <img src="img/icon_fechar.svg" />
       </span>
@@ -276,3 +276,9 @@
 </section>
 
 @endsection
+
+<script>
+  function handleAlertDevelopment() {
+    alert("Em desenvolvimento!");
+  }
+</script>
