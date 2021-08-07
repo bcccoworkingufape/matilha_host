@@ -1,0 +1,79 @@
+.systems {
+  background-color: #20242d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.systems .title {
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
+}
+
+.systems p {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.systems .cards {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-top: 30px;
+}
+
+.systems .cards .card-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.systems .cards .card-system .box {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.systems .cards .card-system .box-more {
+  background-color: #1d212c;
+  border: 1px solid #c7d4f3;
+  box-shadow: 0 0 0.5em #3c73f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.systems .cards .card-system .box img {
+  height: 50px;
+}
+
+.systems .cards .card-system .box-more img {
+  height: 20px;
+  transform: rotate(45deg);
+}
+
+.systems .cards .card-system .description {
+  margin-top: 10px;
+}

@@ -1,3 +1,7 @@
+<head>
+  <link href="{{ asset('css/systems.css') }}" rel="stylesheet">
+</head>
+
 <section id="systems" class="systems">
   <span class="title">
     Lorem Ipsum é simplesmente uma simulação de<br />
