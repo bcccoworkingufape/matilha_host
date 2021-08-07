@@ -10,27 +10,27 @@
   <div class="cards">
     <span class="card-system">
       <span class="box">
-        <img src="img/icon_joomla.svg" />
+        <img src="img/wordpress.png" />
+      </span>
+      <span class="description">Wordpress</span>
+    </span>
+    <span class="card-system">
+      <span class="box">
+        <img src="img/docker.png" />
+      </span>
+      <span class="description">Docker</span>
+    </span>
+    <span class="card-system">
+      <span class="box">
+        <img src="img/joomla.png" />
       </span>
       <span class="description">Joomla</span>
     </span>
     <span class="card-system">
       <span class="box">
-        <img src="img/icon_joomla.svg" />
+        <img src="img/drupal.png" />
       </span>
-      <span class="description">Joomla</span>
-    </span>
-    <span class="card-system">
-      <span class="box">
-        <img src="img/icon_joomla.svg" />
-      </span>
-      <span class="description">Joomla</span>
-    </span>
-    <span class="card-system">
-      <span class="box">
-        <img src="img/icon_joomla.svg" />
-      </span>
-      <span class="description">Joomla</span>
+      <span class="description">Drupal</span>
     </span>
     <span class="card-system" onclick="handleAlertDevelopment()">
       <span class="box-more">
